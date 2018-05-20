@@ -7,7 +7,7 @@ disqus: false
 
 <article class="page">
   {% for post in site.posts %}
-	<div>
+	<div class="minipost">
 		<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 		<h1>
 			<a href="{{ post.url }}">{{ post.title }}</a>
@@ -15,14 +15,14 @@ disqus: false
 		<p>
 		{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 		</p>
-	</div>
-	<div class="tags">
-			{% assign sortedCategories = post.categories | sort %}
-			{% for category in sortedCategories %}
-					<span class="tag">
-							<a href="/category/{{ category }}">#{{ category }}</a>
-					</span>
-			{% endfor %}
-	</div>
+    <div class="categories">
+        {% assign sortedCategories = post.categories | sort %}
+        {% for category in sortedCategories %}
+            <span class="tag">
+                <a href="/category/{{ category }}">#{{ category }}</a>
+            </span>
+        {% endfor %}
+    </div>
+  </div>
   {% endfor %}
 </ul>
