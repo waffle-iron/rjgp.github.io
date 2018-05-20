@@ -3,6 +3,7 @@ layout: post
 title: "Entrenamiento diario"
 date: 2018-05-19 10:58:00 +0200
 categories: [entreno]
+tags: [entreno, 10k, lentorro, running]
 ---
 Día de largo recorrido, no ha llegado a 10Km, pero ha sido a ritmo medio de 5:10/km, y el total de tiempo ha sido 52 minutos.
 

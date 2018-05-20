@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-github-metadata
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -42,6 +43,7 @@ google_analytics: UA-100036457-1
 plugins:
   - jekyll-seo-tag
 ##
+logo: assets/img/logo.png
 
 collections:
   category:
@@ -54,4 +56,3 @@ defaults:
       type: category
     values:
       layout: "category"
-github: [metadata]
