@@ -30,15 +30,28 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-# Theme
-theme: jekyll-theme-dinky
+##
+theme: jekyll-theme-minimal
 # Repository
 repository: rjgp/rjgp.github.io
-# Language
+##
 lang: es
 # Analytics
 google_analytics: UA-100036457-1
-#plugins
+##
 plugins:
   - jekyll-seo-tag
-  
+##
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+github: [metadata]

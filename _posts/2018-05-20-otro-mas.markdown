@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Otro para tener mas que ver"
+date: 2018-5-20 01:00:20 +0200
+categories: [adventures, aprender]
+---
+Este es un texto de ejemplo en el que tambien vamos a probar a poner el texto de introduccion.
+
+Y este texto no debe de aparecer hasta que no entras dentro del post en si.
